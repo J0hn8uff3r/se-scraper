@@ -3,7 +3,7 @@ FROM node:10-slim
 # Application parameters and variables
 # ENV NODE_ENV=production
 ENV HOST=0.0.0.0
-ENV PORT=3000
+ENV PORT=22800
 ENV application_directory=/se-scraper
 ENV puppeteer_cluster_directory=/se-scraper/src/puppeteer-cluster
 
